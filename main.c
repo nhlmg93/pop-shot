@@ -29,7 +29,7 @@ int main(void) {
   // Initial Variables
   //-----------------------------------------------------------------------------------
   struct GameState state = {.frameCounter = 0,
-                            .screen = GAMEPLAY,
+                            .screen = TITLE,
                             .pos = 0,
                             .radius = 20,
                             .clip = {{0}, {0}, {0}, {0}, {0}, {0}},
